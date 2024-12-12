@@ -1,0 +1,29 @@
+.search {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 5px 5px 15px;
+    font-size: 0.8rem;
+    background: white;
+    border: 1px solid #ad5c5c;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+        appearance: none;
+
+        cursor: pointer;
+
+        background: url(../../assets/search-close.png) center center no-repeat;
+        background-size: cover;
+
+        height: 24px;
+        width: 24px;
+
+        margin-left: 12px;
+
+        opacity: 1;
+    }
+}
