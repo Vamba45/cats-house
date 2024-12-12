@@ -8,3 +8,14 @@ body, html, #root {
     width: 100%;
     height: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:visited,
+a:active {
+    color: #000;
+}
