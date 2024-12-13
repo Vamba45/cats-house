@@ -6,7 +6,7 @@ export const catAPI = createApi({
     endpoints: (build) => ({
         fetchCats: build.query<Object, string>({
             query: (filter) => ({
-                url: `/${filter}`
+                url: `${filter}`
             })
         }),
     })
