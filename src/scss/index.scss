@@ -23,6 +23,12 @@ a:active {
     color: #000;
 }
 
+img {
+    display: inline-block;
+    max-height: 100%;
+    max-width:  100%;
+}
+
 .container {
     max-width: 1080px;
     padding: 0 15px;
