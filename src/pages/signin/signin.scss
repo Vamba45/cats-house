@@ -29,5 +29,21 @@
                 outline: none;
             }
         }
+
+        .signin__submit {    
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 5px 5px 15px;
+            font-size: 0.8rem;
+            background: rgb(133, 97, 97);
+            border: none;
+
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgb(133, 97, 97);
+
+            &:active {
+                transform: translateY(2px);
+            }
+        }
     }
 }

@@ -11,8 +11,9 @@ export const Signin = () => {
                     </div>
                     <div className="signin__column">
                         <form action="#" method="POST" className="signin__form">
-                            <input type="text" className="signin__login" />
-                            <input type="password" className="signin__password" />
+                            <input type="text" className="signin__login" placeholder="Логин"/>
+                            <input type="password" className="signin__password" placeholder="Пароль"/>
+                            <button type="submit" className="signin__submit">Войти</button>
                         </form>
                     </div>
                 </div>
