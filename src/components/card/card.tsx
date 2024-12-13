@@ -4,6 +4,7 @@ import './card.scss';
 export const Card : FC = ({img, text}) => {
     return (
         <div className="card">
+            <a href="/favorites" className="card__favorites"></a>
             <div className="card__row">
                 <div className="card__column">
                     <img src={img} alt="card-image" className="card__image" />
