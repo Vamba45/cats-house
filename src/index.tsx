@@ -5,6 +5,7 @@ import './scss/index.scss';
 import { Header } from './components/header/header.tsx';
 import { Provider } from 'react-redux';
 import { setupStore } from './store/store.ts';
+import { BrowserRouter as Router, Route, Routes }from 'react-router-dom';
 
 const store = setupStore();
 
@@ -14,7 +15,16 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <Provider store={store}>
-      <Header/>
-      <Main/>
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <>
+          <Header/>
+          <Main/>
+        </>
+        }>
+        </Route>
+      </Routes>
+    </Router>
   </Provider>
 );
