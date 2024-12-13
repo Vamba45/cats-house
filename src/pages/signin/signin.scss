@@ -1,0 +1,33 @@
+.signin {
+    .signin__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 10px 0;
+    }
+    
+    .signin__form {
+        width: 250px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        gap: 5px 0;
+
+        input {
+            width: 100%;
+            border-radius: 5px;
+            padding: 5px 5px 5px 15px;
+            font-size: 0.8rem;
+            background: white;
+            border: 1px solid #ad5c5c;
+        
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
